@@ -27,6 +27,13 @@
     </scm>
     <developers>
     </developers>
+	<distributionManagement>  
+		<snapshotRepository>  
+			<id>snapshots.archiva</id>  
+			<name>Archvia Snapshots Repository</name>  
+			<url>https://www.prabst.de/archiva/repository/snapshots/</url>  
+    	</snapshotRepository>  
+	</distributionManagement>         
 
     <properties>
         <java.version>1.8</java.version>
